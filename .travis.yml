@@ -7,3 +7,5 @@ env:
   global:
     # GitHub Token
     - secure: "NREBVV1HzccQOYCbPyFfhWtGqg/fBOtzg7pjR2NSwdpRZPrJ/pNkIbuSgGGE58msZmOa9tsKqnbYdpI4wOWqSwNJ8SlQev7arhzj5nEiD71qceE/2yeseLyv6z+FBF3X4tAi9HVU6OZJS/zhrtNk61Niyv9BucPAvF9/merVpv0="
+    - GIT_AUTHOR_EMAIL: 'pete@metanation.com'
+    - GIT_AUTHOR_NAME: 'Pete Nicholls'
