@@ -1,8 +1,8 @@
 nguage: ruby
 rvm:
   - 2.2.0
-script: middleman build
-after_success: middleman deploy
+script: bundle exec middleman build
+after_success: bundle exec middleman deploy
 env:
   global:
     # GitHub Token
