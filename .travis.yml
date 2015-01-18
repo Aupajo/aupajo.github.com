@@ -1,0 +1,9 @@
+nguage: ruby
+rvm:
+  - 2.2.0
+script: middleman build
+after_success: middleman deploy
+env:
+  global:
+    # GitHub Token
+    - secure: "NREBVV1HzccQOYCbPyFfhWtGqg/fBOtzg7pjR2NSwdpRZPrJ/pNkIbuSgGGE58msZmOa9tsKqnbYdpI4wOWqSwNJ8SlQev7arhzj5nEiD71qceE/2yeseLyv6z+FBF3X4tAi9HVU6OZJS/zhrtNk61Niyv9BucPAvF9/merVpv0="
