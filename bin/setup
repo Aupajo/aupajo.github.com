@@ -1,0 +1,16 @@
+#!/bin/sh
+bundle install
+
+cat <<INSTRUCTIONS
+
+==> You're good to go!
+
+    To start a server:
+
+      bin/start
+
+    To release:
+
+      bin/release
+
+INSTRUCTIONS
